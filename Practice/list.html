@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists in Html</title>
+</head>
+
+<body>
+    <header> </header>
+
+
+    <main>
+
+        <!-- ================================== >>  Un ordererd Lists <<  ======================================== -->
+        <hr><pre><h3><big><b>                         <u>Un-ordered List</u>              </b></big></h3></pre>
+        <ul>    
+            <li> Director</li>
+                <ul>
+                    <li> Sub Lists</li>
+                    <li> entracloud</li>
+                </ul>
+            <li> Chairman</li>
+            <li> Student</li>
+            <li> Graphic Designer</li>
+            wow without li tag <br>
+            good
+
+        </ul>
+
+        
+        <!-- ================================== >> Ordered List<<  ======================================== -->
+        <hr><pre><h3><big><b>                         <u>ordered List</u>              </b></big></h3></pre>
+        <ol>
+            <li> Director1</li>
+            <ul>
+                <li> Sub Lists</li>
+                <li> entracloud</li>
+            </ul>
+            <li> Chairman2</li>
+            <li> Student2</li>
+            <li> Graphic Designer2</li>
+            wow2 <br>
+            good2
+
+        </ol>
+
+        <!-- ================================== >>  Tables <<  ======================================== -->
+         <!-- tr (row)   /// td(data)     /// th (header) -->
+        <hr><pre><h3><big><b>                         <u>Tables</u>              </b></big></h3></pre>
+
+
+        <table>
+            <captions>
+                CS Student Data <br>  <br>
+            </captions>
+            <thead>
+                <tr>
+                    <th> Name   </th>
+                    <th> Roll   </th>
+                    <th colspan="2"> Degree+CGPA</th>         <!-- merging columns with same name -->
+                    <!-- <td> yes </td> -->
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td> Bilal </td>
+                    <td> 3309  </td>
+                    <td> cs  </td>
+                    <td> 3.60  </td>
+                </tr>
+            </tbody>
+
+        </table>
+
+
+
+        <!-- ================================= >>  Forms and Labels <<  ======================================= -->
+        <hr><pre><h3><big><b>                         <u>Forms and Labels</u>              </b></big></h3></pre>
+        <form>
+            <input type="text" placeholder="Username">  <br> <br>
+            <input type="password" placeholder="Password"> <br>
+
+            <label for="1">
+                <input type="radio" value = "Login" name = "Class" id = "1"> Login
+            </label>
+            <label for="2">
+                <input type="radio" value = "SignUp" name = "Class" id = "2"> SignUp
+            </label>
+
+            <h3> Choose the courses </h3>
+            <label for="501">
+                <input type="checkbox" value = "Programming" name = "group1" id = "501"> programming  <br>
+            </label>
+            <label for="502">
+                <input type="checkbox" value = "Calculus" name = "group1" id = "502"> Calculus  <br>
+            </label>
+            <label for="503">
+                <input type="checkbox" value = "ICT" name = "group1" id = "503"> ICT  <br>
+            </label>
+            <label for="504">
+                <input type="checkbox" value = "Linear Algebra" name = "group1" id = "504"> Linear Algebra  <br>
+            </label>
+
+        <br> <br><hr><pre><h3><big><b>                 Feedback              </b></big></h3></pre> 
+        <textarea name="feedback" placeholder="Please give some feedback" rows="7" cols="60"></textarea>
+        </form>
+
+
+        <hr>
+        <pre>Select your city</pre>
+        <select name = "city">
+            <option value="Faisalabad"> Faisalabad</option>
+            <option value="Islamabad"> Islamabad</option>
+            <option value="Karachi"> Karachi</option>
+            <option value="Lahore"> Lahore</option>
+        </select>
+        <hr> 
+        <br> <br>
+
+        <input type="submit" value="submit">   <br> <br>
+
+    <!-- ================================= >>  Forms and Labels <<  ======================================= -->
+    <hr><pre><h3><big><b>                         <u>Inframe</u>              </b></big></h3></pre>
+
+    <!-- Go to youtube vide,,, click on share vide,, click embed,, copy and then paste code here in VS code -->
+    
+    
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/HBLD-bl1B9o?si=XWhGeSx0IWxOn3KB" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+
+    <br> <br> <hr> <br>
+    <video width="600"  height="315" src="Bil.mp4"  controls loop> my vide </video>
+
+
+    </main>
+
+
+    <footer> </footer>
+</body>
+</html>
