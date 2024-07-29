@@ -1,6 +1,6 @@
 <h1 align="center"> HTML (Hypertext Markup Language)  </h1>
 
-![Muhammad Bilal Ashiq](Source/Bilal.png)
+![Muhammad Bilal Ashiq](Source/java.png)
 
 <h2 align="center"> My practice to learn HTML </h2>
 
