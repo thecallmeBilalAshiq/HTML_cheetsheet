@@ -8,7 +8,6 @@
 >HTML, the building block of websites, tells browsers what to display. Imagine it as a recipe for a web page, defining structure like headings, paragraphs, and images. Learning HTML is the first delicious bite into web development!
 ***
 
-
 <h3 align="center">💣 Support this repository 💣</h3>
 <br />
 
